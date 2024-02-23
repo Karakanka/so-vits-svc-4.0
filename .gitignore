@@ -10,7 +10,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+checkpoints/
 # Distribution / packaging
 .Python
 build/
@@ -140,6 +140,9 @@ dmypy.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+/shelf/
+/workspace.xml
+
 dataset
 dataset_raw
 raw
@@ -151,3 +154,14 @@ configs/config.json
 filelists/test.txt
 filelists/train.txt
 filelists/val.txt
+.idea/
+.vscode/
+.idea/modules.xml
+.idea/so-vits-svc.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+pretrain/
+.vscode/launch.json
+
+trained/**/
